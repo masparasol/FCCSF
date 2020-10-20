@@ -47,7 +47,7 @@ toggleNav.addEventListener("click", function(event)
     //otherwise we use the template code ${route} to insert our defined route
 
     console.log(window.location.pathname);
-    if (window.location.pathname=='/' || window.location.pathname=='/index.html') 
+    if (window.location.pathname=='/' || window.location.pathname=='/FCCSF/index.html' || window.location.pathname=='/FCCSF/') 
     {
         var logopath='.'; //one dot if on index page
         var route='/html'; //html if on index page
